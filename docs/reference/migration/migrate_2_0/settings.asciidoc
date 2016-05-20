@@ -170,9 +170,9 @@ setting.
 
 ==== Custom config file
 
-It is no longer possible to specify a custom config file with the `CONF_FILE`
+**It is no longer possible to specify a custom config file with the `CONF_FILE`
 environment variable, or the `-Des.config`, `-Des.default.config`, or
-`-Delasticsearch.config` parameters.
+`-Delasticsearch.config` parameters. **
 
 Instead, the config file must be named `elasticsearch.yml` and must be located
 in the default `config/` directory, unless a custom config directory is specified.
